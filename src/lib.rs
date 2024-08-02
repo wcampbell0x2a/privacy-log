@@ -1,3 +1,5 @@
+//! [rust-lang/log](https://github.com/rust-lang/log), but without file names and line information.
+
 #[doc(hidden)]
 pub mod __private_api;
 
