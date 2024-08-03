@@ -12,7 +12,7 @@ fn log_impl(
     log::logger().log(&builder.build());
 }
 
-pub fn log<'a>(
+pub fn log(
     args: std::fmt::Arguments,
     level: log::Level,
     target_module_path_and_loc: &(&str, &'static str),
